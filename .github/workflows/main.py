@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get('/ver')
 def ver():
-    return JSONResponse(content={"version": "WSK v1"})
+    return JSONResponse(content={"version": "WSK v2"})
 
 @app.get('/health')
 def health():
