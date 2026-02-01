@@ -1,4 +1,4 @@
-name: build spec
+name: build and update gac
 
 # main 브랜치 푸시 시에만 실행
 on:
